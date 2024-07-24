@@ -19,7 +19,8 @@ https://github.com/hq-deng/RD4AD
 I have added the following features:
 - AdamW instead of Adam to add further regularization
 - Data augmentation like Flips, Rotation and Color Jitter
-- Coordinate Layers (An Intriguing Failing of Convolutional Neural Networks and the CoordConv Solution by Liu et al.),
+- Coordinate Layers (An Intriguing Failing of Convolutional Neural Networks and the CoordConv Solution by Liu et al.)
+  are applied in the Student Model before Transposed Convolution Operations to improve Localization
       @misc{liu2018intriguingfailingconvolutionalneural,
       title={An Intriguing Failing of Convolutional Neural Networks and the CoordConv Solution}, 
       author={Rosanne Liu and Joel Lehman and Piero Molino and Felipe Petroski Such and Eric Frank and Alex Sergeev and Jason Yosinski},
